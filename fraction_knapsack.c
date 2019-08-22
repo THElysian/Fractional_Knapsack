@@ -10,6 +10,7 @@ typedef struct items
 	float fraction;
 };
 
+//Function to solve knapsack
 void knapsack(unsigned int n, struct items object[], float capacity)
 {
 	float total_profit = 0;
